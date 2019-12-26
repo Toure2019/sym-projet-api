@@ -27,7 +27,7 @@ class Region
 
     public function getCode(): ?string
     {
-        return 'N° '.$this->code;
+        return $this->code;
     }
 
     public function setCode(string $code): self
